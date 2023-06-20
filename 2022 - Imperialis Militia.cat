@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f84d-94cf-5ce6-b393" name="2022 - Imperialis Militia" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -3054,7 +3054,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="08bd-fa05-2f85-3795" name="3) Close Combat Weapons and Pistols (go to 1.3)" hidden="false" collective="false" import="true" type="upgrade"/>
+                    <selectionEntry id="08bd-fa05-2f85-3795" name="3) Close Combat Weapons and Pistols (go to 1.3)" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="7f22-f75c-eaba-52e9" name="1.1a) Lasguns / Autorifles" hidden="false" collective="false" import="true" defaultSelectionEntryId="3ad5-d265-f656-8732">
@@ -3284,6 +3288,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                           </constraints>
                         </entryLink>
                       </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="9018-e83e-a14c-c734" name="Chainsword &amp; Autopistol" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
@@ -3310,6 +3317,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                           </costs>
                         </entryLink>
                       </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="c27b-298e-539b-9631" name="Basic Close Combat Weapon &amp; Autopistol" hidden="false" collective="false" import="true" type="upgrade">
                       <entryLinks>
