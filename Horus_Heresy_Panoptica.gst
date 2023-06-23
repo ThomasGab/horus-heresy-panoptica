@@ -754,13 +754,9 @@ A unit that includes one or more models with the Artillery sub-type may not make
       </rules>
     </categoryEntry>
     <categoryEntry id="bff2-ae16-74a8-8712" name="Light Sub-type:" hidden="false">
-      <rules>
-        <rule id="3ec9-276f-e19f-e639" name="Light Sub-type" publicationId="e77a-823a-da94-16b9" page="197" hidden="false">
-          <description>• A unit that includes only models with the Light sub-type gains a +1 modifier to its Initiative when determining how far that unit may Run (this bonus stacks with other bonuses to Run distance, such as the Fleet (X) special rule) and when moving as part of a Reaction.
-• A unit that includes only models with the Light sub-type may make Shooting Attacks after having Run, but makes all such attacks as Snap Shots. Models or weapons that cannot attack as Snap Shots may not attack.
-• Models with the Light sub-type may never claim a Cover Save in the same turn that it makes a Run move.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink id="b5ca-c8b3-9ec9-9bc8" name="Light Sub-type" hidden="false" targetId="a080-37e6-3717-5d12" type="rule"/>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="3a7a-8bb7-b0d3-e2e7" name="Hover Sub-type" hidden="false">
       <rules>
@@ -6408,7 +6404,7 @@ Four single Blast Shields</characteristic>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Rocket Barrage</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Barrage, Large Blast (5&quot;), Rocket Barrage, Pinning (if immobile), Rending (5+) (if immobile), Shell Shock (1) (if immobile)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6416,6 +6412,9 @@ Four single Blast Shields</characteristic>
         <infoLink id="8eed-6343-b75e-cfa6" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
         <infoLink id="5607-3664-c604-0e6d" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="2848-a553-8ba6-6c72" name="Rocket Barrage" hidden="false" targetId="88df-ea13-cc92-8193" type="rule"/>
+        <infoLink id="038f-790c-0976-d0a1" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule"/>
+        <infoLink id="9856-6eed-6604-3f71" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="7b56-1bdb-0cda-858e" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
@@ -6689,6 +6688,12 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6d2-b3a9-6d2c-1f6f" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="0fa0-0b38-68c7-9f70" name="Pair of Lightning Claws" publicationId="a716-c1c4-7b26-8424" page="137" hidden="false">
+          <description>When a model has two lightning claws, that model gains +2 Attacks instead of the usual +1 Attack for using an additional weapon in combat.
+“The +2A bonus for being armed with two Lightning Claws can only be claimed if the bearer attacks with the Paired Lightning Claws. If the bearer attacks with any other Specialist Weapons, then they would gain only a single bonus attack as per the standard rules for having multiple Specialist Weapons.” - Liber Panoptica - Page 108</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="d233-cb08-eb24-5c8c" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
@@ -8452,6 +8457,12 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
       </costs>
     </selectionEntry>
     <selectionEntry id="405f-030d-0343-ade8" name="Pair of Lightning Claws" hidden="false" collective="true" import="true" type="upgrade">
+      <rules>
+        <rule id="b4fd-2b2e-9ed9-ccc0" name="Pair of Lightning Claws" publicationId="a716-c1c4-7b26-8424" page="137" hidden="false">
+          <description>When a model has two lightning claws, that model gains +2 Attacks instead of the usual +1 Attack for using an additional weapon in combat.
+“The +2A bonus for being armed with two Lightning Claws can only be claimed if the bearer attacks with the Paired Lightning Claws. If the bearer attacks with any other Specialist Weapons, then they would gain only a single bonus attack as per the standard rules for having multiple Specialist Weapons.” - Liber Panoptica - Page 108</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="06b6-33a0-6c50-e7b5" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
@@ -12338,6 +12349,7 @@ Limitations
 • Legion Predator Squadrons may be selected as Troops choices for a Detachment using this Rite of War.
 • Legion Kratos Squadrons may be selected as Elites choices for a Detachment using this Rite of War.
 • All units in a Detachment using this Rite of War made up entirely of models with the Infantry Unit Type, the Ironwing Unit Sub-type and with 10 or fewer models may take a Legion Land Raider Proteus Carrier as a Dedicated Transport, or, if the unit includes more than 10 models, a Legion Land Raider Spartan.
+• “Legion Predator Squadrons taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.”
 Limitations
 • All units made up entirely of models with the Infantry Unit Type in a Detachment using this Rite of War must begin the battle Embarked on a model with the Transport Sub-type that has sufficient Transport Capacity to carry them. This may not be a Vehicle with the Flyer Sub-type.
 • All units selected as Troops choices, Legion Predator Squadrons and Legion Kratos Squadrons in a Detachment using this Rite of War must have the Ironwing Unit Sub-type.
@@ -12368,7 +12380,7 @@ Limitations
 • Legion Destroyer Assault Squads, Legion Mortalis Destroyer Squads and Dreadwing Interemptor Squads may be taken as Troops choices in a Detachment using this Rite of War.
 • All models with the Dreadwing Unit Sub-type in a Detachment using this Rite of War automatically pass any Dangerous Terrain tests they are called upon to make without any dice being rolled.
 • For the duration of the battle, all Open Terrain areas of the battlefield outside of any player’s Deployment Zone count as Difficult Terrain. Those areas previously defined as Difficult Terrain (woods, ruins, etc) remain as Difficult Terrain, while Impassable Terrain and Dangerous Terrain, Fortifications and Buildings are unaffected by this rule. Before any models are deployed, the controlling player may choose to place up to two Eskaton markers (represented by spare dice, bases or any other token no larger than a 25mm base) anywhere in the playing area that is 6&quot; from a battlefield edge or any player’s Deployment Zone. The area within 6&quot; of an Eskaton marker, including terrain pieces within the zone of this effect, are counted as Dangerous Terrain in addition to any other effects for the duration of the battle.
-• All models with the Dreadwing Unit Sub-type in a Detachment using this Rite of War gain +1 to all To Wound rolls made against models in any zone of Area Terrain or Terrain Piece that counts as Dangerous Terrain including any models forced to count other types of terrain as Dangerous Terrain by another special rule.
+• “All models with the Dreadwing Unit Sub-type in a Detachment using this Rite of War gain +1 to all To-Wound Rolls made against a unit which has the half or more of the models in it in any zone of Area Terrain or Terrain Piece that counts as Dangerous Terrain including any models forced to count other types of terrain as Dangerous Terrain by another Special Rule.”
 Limitations
 • If the Primary Detachment of an army is using this Rite of War, the army’s Warlord must have the Dreadwing Unit Sub-type or be Lion El’Jonson.
 • All units selected as Troops choices, Legion Destroyer Assault Squads and Legion Mortalis Destroyer Squads in a Detachment using this Rite of War must have the Dreadwing Unit Sub-type.
@@ -12397,7 +12409,7 @@ Limitations
           <rules>
             <rule id="54e8-b1fb-3ca3-f5e2" name="The Storm Of War" publicationId="817a-6288-e016-7469" page="154" hidden="false">
               <description>Effects
-• Any Legion Tactical Squads, Legion Despoiler Squads or Legion Assault Squads selected as part of a Detachment using this Rite of War and consisting of at least 20 models may include a Legion Centurion. A Legion Centurion selected in this manner does not use up a Force Organisation slot but must be paid for from the army’s points total as normal. The Centurion is considered part of the squad he is purchased for and may not leave it during play nor select any Consul upgrades. A Legion Centurion selected in this manner may not be chosen as the army’s Warlord and must have the Stormwing Unit Sub-type.
+• Any Legion Tactical Squads, Legion Despoiler Squads or Legion Assault Squads selected as part of a Detachment using this Rite of War and consisting of at least 20 models may include a Legion Centurion. A Legion Centurion selected in this manner does not use up a Force Organisation slot but must be paid for from the army’s points total as normal. The Centurion is considered part of the squad he is purchased for and may not leave it during play nor select any Consul upgrades. A Legion Centurion selected in this manner may not be chosen as the army’s Warlord and must have the Stormwing Unit Sub-type. “Note that Legion Centurions selected in this manner do not prevent Legion Apothecaries or Legion Techmarines from joining the unit during list construction, contrary to the normal rules around Legion Apothecaries or Legion Techmarines joining units with the Independent Character Special Rule.”
 • All models with both the Character and Stormwing Unit Sub-type gain the Stubborn special rule, including any Centurion selected for unit using this rules presented as part of this Rite of War.
 • Legion Tactical Squads, Legion Despoiler Squads and Legion Assault Squads may be selected as Elites choices in a Detachment using this Rite of War.
 • Legion Assault Squads may be selected as Fast Attack choices in a Detachment using this Rite of War.
@@ -12431,6 +12443,7 @@ Limitations
               <description>• Legion Veteran Squads, Legion Tartaros Terminator Squads and Legion Cataphractii Terminator Squads may be selected as Troops choices in a Detachment using this Rite of War.
 • Models with the Independent Character special rule and the Deathwing Unit Sub-type from a Detachment using this Rite of War gain +1 Attack while within 12&quot; of any Objective.
 • All models in a Legion Veteran Squad, Legion Tartaros Terminator Squad or Legion Cataphractii Terminator Squad chosen as part of a Detachment using this Rite of War gain the Heart of the Legion special rule.
+• “Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.”
 Limitations
 • After deployment has been completed, the controlling player must place a single additional Objective at the centre of the battlefield or as close as possible. At the end of the battle, if the controlling player does not control this Objective the opposing player gains +1 Victory point, or +D3 Victory points if the opposing player controls it instead.
 • All Legion Tartaros Terminator Squads, Legion Cataphractii Terminator Squads and Legion Veteran Squads in a Detachment using this Rite of War must have the Deathwing Unit Sub-type.
@@ -12488,7 +12501,8 @@ Limitations
             <rule id="18f2-7c33-baa9-8e54" name="Serpent&apos;s Bane" publicationId="817a-6288-e016-7469" page="155" hidden="false">
               <description>Effects
 • Legion Seeker Squads may be taken as Troops choices in a Detachment using this Rite of War.
-• At the start of the battle, the controlling player must select three enemy Primarch, HQ, Elites or Lords of War choices as Priority Targets and declare the chosen units to their opponent. All models in a unit from this Detachment that includes at least one model with the Firewing Unit Sub-type may add +1 to all To Hit rolls made against these Priority Targets or any unit that a Priority Target has joined. If the enemy army does not include at least three Primarch, HQ, Elites or Lords of War choices then any other units in the enemy army may be designated to fill the remaining required Priority Targets.
+• “At the start of the battle, the Controlling Player must select three enemy units which contain a model selected as a part of a Primarch, HQ, Elites, or Lord of War slot. 
+All models in a unit from this Detachment that includes at least one model with the Firewing Unit Sub-type may add +1 to all To Hit rolls made against these Priority Targets or any unit that a Priority Target has joined. If the enemy army does not include at least three Primarch, HQ, Elites or Lords of War choices then any other units in the enemy army may be designated to fill the remaining required Priority Targets.”
 • Models with both the Character and Firewing Unit Sub-types in a Detachment using this Rite of War gain +1 Attack when locked in combat with a Priority Target unit.
 • Up to three units selected as Troops choices in a Detachment using this Rite of War that have the Firewing Unit Sub-type may be given the Infiltrate special rule.
 Limitations
@@ -14988,6 +15002,11 @@ Note that if a unit makes use of this Special Rule, they may not claim the benef
     </rule>
     <rule id="7612-5d24-6d82-cfbb" name="Tank Desant" publicationId="4255-27c5-04bb-4084" page="144" hidden="false">
       <description>While a model is embarked in the Transport Capacity of a model with this Special Rule, it may fire its ranged weapons as though it is not embarked in a vehicle. All ranges should be measured from the hull of the Transport.</description>
+    </rule>
+    <rule id="a080-37e6-3717-5d12" name="Light Sub-type" publicationId="e77a-823a-da94-16b9" page="197" hidden="false">
+      <description>• A unit that includes only models with the Light sub-type gains a +1 modifier to its Initiative when determining how far that unit may Run (this bonus stacks with other bonuses to Run distance, such as the Fleet (X) special rule) and when moving as part of a Reaction.
+• A unit that includes only models with the Light sub-type may make Shooting Attacks after having Run, but makes all such attacks as Snap Shots. Models or weapons that cannot attack as Snap Shots may not attack.
+• Models with the Light sub-type may never claim a Cover Save in the same turn that it makes a Run move.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

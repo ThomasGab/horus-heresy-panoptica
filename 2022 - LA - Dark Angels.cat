@@ -2814,6 +2814,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="1ff7-a108-f766-81e1" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c13f-d13c-67bd-ae89" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="22ab-24e1-9661-4347" name="New CategoryLink" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
@@ -2831,6 +2834,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="4901-4ac8-0be0-c2f1" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="833e-cf06-7cb2-0f1f" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="8c07-9215-b922-7f94" name="New CategoryLink" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
@@ -2844,6 +2850,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="17c3-430d-8997-8caa" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="530e-ed1f-559f-17c9" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="6013-201f-933a-8504" name="New CategoryLink" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
@@ -2857,6 +2866,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="37bb-5d75-3993-611b" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d210-16e4-28f5-eb5a" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="59ba-1670-3c15-9a82" name="New CategoryLink" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
@@ -3151,7 +3163,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20.0"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3419,7 +3431,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20.0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf23-fd3a-15a0-7347" name="Excindio Battle-automata" publicationId="d0df-7166-5cd3-89fd" page="54" hidden="false" collective="false" import="true" type="unit">

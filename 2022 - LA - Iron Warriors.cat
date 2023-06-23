@@ -2919,6 +2919,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="e6cb-6988-1f80-f556" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1017-62c2-789a-dda4" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="e1a2-4c51-21d8-00f9" name="New CategoryLink" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
@@ -2932,6 +2935,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="23f8-cd73-5137-55ad" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9f0c-c5a4-6d0c-643c" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="a839-23d1-8ace-cc40" name="New CategoryLink" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
@@ -2949,6 +2955,9 @@
           </conditionGroups>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="39af-a291-c047-35c9" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c7d1-12c2-319f-3dee" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="2ce7-e2c8-2ff5-c0df" name="New CategoryLink" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
@@ -2962,6 +2971,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink id="439f-247f-e092-1b04" name="Legiones Astartes (X)" hidden="false" targetId="ffcb-13b4-9b4c-84da" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5406-a7b2-2f43-16d2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="63d4-6fff-0854-732a" name="New CategoryLink" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
