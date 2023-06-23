@@ -178,6 +178,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9751-6008-860a-5298" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e692-8686-cae7-1ec4" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="152b-7c77-6c57-a08d" name="Legiones Astartes (Dark Angels)" hidden="false" targetId="513e-0647-996a-6229" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="94dd-b497-2933-d015" name="New CategoryLink" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="true"/>
       </categoryLinks>

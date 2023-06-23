@@ -168,6 +168,9 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0633-84dd-c5cb-8b68" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a8-3243-43ed-49a9" type="max"/>
       </constraints>
+      <infoLinks>
+        <infoLink id="e03b-9626-b453-668d" name="Legiones Astartes (Iron Warriors)" hidden="false" targetId="c77b-f3fc-5dc8-1330" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="4a17-436d-d77f-9962" name="New CategoryLink" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="true"/>
       </categoryLinks>
