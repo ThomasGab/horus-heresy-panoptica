@@ -1919,8 +1919,8 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e89b-c855-2e05-8bbf" name="New CategoryLink" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
         <categoryLink id="66e1-e02a-d031-26c3" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="5d5d-8717-9fea-9c3a" name="New CategoryLink" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a09f-4dba-b6ec-1808" name="Legion Malcador Assault Tank Squadron" hidden="true" collective="false" import="false" targetId="528b-183f-5e27-8b0c" type="selectionEntry">
@@ -2937,6 +2937,37 @@
         <categoryLink id="8411-1862-5232-cf37" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="44b7-d6d9-399f-1f1e" name="Legion Macharius Omega Heavy Tank" hidden="false" collective="false" import="true" targetId="6865-9d88-95dc-2d3f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <comment>    node_id_005e-6607-4e2c-8dd2</comment>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <comment>    node_id_7745-260c-4c36-b719</comment>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d344-d97b-4687-8a62" type="greaterThan">
+                  <comment>    node_id_ba25-a4b2-4ba9-b023</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo">
+                  <comment>    node_id_ddeb-f4c8-4091-9153</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo">
+                  <comment>    node_id_4904-fd2f-429f-9cf7</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo">
+                  <comment>    node_id_faea-b21b-43c5-b918</comment>
+                </condition>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="e82a-e1a2-ac57-07a5" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="d720-1928-e597-ba5a" name="New CategoryLink" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4097-b2b4-d9da-da99" name="Corswain" hidden="false" collective="false" import="true" type="unit">
@@ -3465,11 +3496,6 @@
             <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="aef2-c8df-6a1a-fb48" name="Internal Refractor Field" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">This model has a 5+ Invulnerable save. In addition, should the model lose its last wound then all models within D6+4&quot; suffer a Str 8 AP - hit.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <rules>
         <rule id="ec39-0eaa-c0d6-6447" name="Vengeful Rage" publicationId="d0df-7166-5cd3-89fd" page="56" hidden="false">
@@ -3496,6 +3522,20 @@
         <categoryLink id="41dc-2f36-d265-13b9" name="Heavy" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
         <categoryLink id="4a74-0b7b-e4f1-ac5d" name="Cybertheurgist" hidden="false" targetId="57a1-ae47-ff1b-36e4" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bb13-0115-ed4c-2593" name="Inbuilt Atomantic Deflector" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="079a-8c99-0ab4-b98f" name="Inbuilt Atomantic Deflector" publicationId="a716-c1c4-7b26-8424" page="140" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an atomantic deflector gains a 5+ Invulnerable Save and any model with an atomantic deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with an atomantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+4&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="f512-ae27-71ee-88f1" name="4) Dedicated Transport:" hidden="false" collective="false" import="true">
           <constraints>
@@ -4039,7 +4079,7 @@ Selenite Shard-bolt Pistol</description>
               </profiles>
               <rules>
                 <rule id="fbd8-5d81-3afd-4e6a" name="Blade charge" hidden="false">
-                  <description>Once per battle, a unit that includes any models with weapons with this special rule may declare a Blade Charge at the start of any of the controlling player’s Assault phases. For the duration of that Phase, the attacks made by all models in the unit with weapons with the Blade Charge special rule gain the Rending (3+) special rule in addition to any other effects their weapons might have. This does not replace or improve any other versions of the Rending (X) special rule already possessed by  the unit.</description>
+                  <description>Once per battle, a unit that includes any models with weapons with this special rule may declare a Blade Charge at the start of any of the controlling player’s Assault phases. For the duration of that Phase, the attacks made by all models in the unit with weapons with the Blade Charge special rule gain the Rending (3+) special rule in addition to any other effects their weapons might have.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -4323,6 +4363,7 @@ special rule.</description>
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="748e-39b4-fce3-a52b" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="359e-1590-1dcc-33d3" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
@@ -4654,6 +4695,7 @@ special rule.</description>
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="6e3b-8735-249d-a84a" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5ae3-be22-48b5-7f36" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
